@@ -1,0 +1,23 @@
+# This file contains the constants used in the application.
+
+from app.config import settings
+
+PROJECT_NAME = settings.PROJECT_NAME
+PROJECT_VERSION = settings.PROJECT_VERSION
+PROJECT_DESCRIPTION = settings.PROJECT_DESCRIPTION
+
+ACCESS_TOKEN_EXPIRES_IN = settings.ACCESS_TOKEN_EXPIRES_IN
+REFRESH_TOKEN_EXPIRES_IN = settings.REFRESH_TOKEN_EXPIRES_IN
+OTP_EXPIRED_TIME = settings.OTP_EXPIRED_TIME
+DEBUG_MODE = settings.DEBUG_MODE
+
+BASE_URL = settings.BASE_URL
+IMAGE_PATH = settings.IMAGE_PATH
+SAVE_IMAGE_PATH = settings.SAVE_IMAGE_PATH
+
+FULL_IMAGE_URL = BASE_URL + settings.IMAGE_URL
+
+DATETIME_FORMAT = settings.datetime_format
+DATE_FORMAT = settings.date_format
+
+ADMIN_SITE_REQUIRED = settings.ADMIN_SITE_REQUIRED
