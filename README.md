@@ -1,4 +1,10 @@
 # fastapi-template-with-auth
+![PyPI - License](https://img.shields.io/pypi/l/Fastapi)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fastapi)
+![X (formerly Twitter) URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Fx.com%2FArslanAfzalCh%3Fs%3D09)
+
+
+
  Fastapi template with basic auth and Mysql connection
 - **main** branch has a basic and simple initial structure with User AUTH
 - **async-struc** has a more advanced async architecture with user AUTH 
